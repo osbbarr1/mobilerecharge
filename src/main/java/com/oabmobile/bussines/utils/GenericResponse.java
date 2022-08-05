@@ -18,6 +18,10 @@ public class GenericResponse<T> {
     private String message;
     private Integer code;
 
+    
+    public GenericResponse(){
+        
+    }
     /**
      * Contructor 1 : message and data response
      *
